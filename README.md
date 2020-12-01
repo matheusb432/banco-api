@@ -1,4 +1,4 @@
-# BancoAPI - API desenvolvida em ASP.NET Core simulando um sistema simples de um banco
+# BancoAPI
 
 * Funcionalidades de extrair, gravar, remover e atualizar dados de um banco de dados através de requisições HTTP.
 * Acesso a um banco de dados com EF Core
