@@ -1,0 +1,4 @@
+C:\Users\usuário\source\repos\Lead Dell\Estudos RESTful APIs\BancoAPI\BancoAPI.Infra.Data\bin\Debug\netcoreapp3.1\BancoAPI.Domain.dll
+C:\Users\usuário\source\repos\Lead Dell\Estudos RESTful APIs\BancoAPI\BancoAPI.Infra.Data\obj\Debug\netcoreapp3.1\BancoAPI.Infra.Data.csprojAssemblyReference.cache
+C:\Users\usuário\source\repos\Lead Dell\Estudos RESTful APIs\BancoAPI\BancoAPI.Infra.Data\obj\Debug\netcoreapp3.1\BancoAPI.Infra.Data.AssemblyInfoInputs.cache
+C:\Users\usuário\source\repos\Lead Dell\Estudos RESTful APIs\BancoAPI\BancoAPI.Infra.Data\obj\Debug\netcoreapp3.1\BancoAPI.Infra.Data.AssemblyInfo.cs

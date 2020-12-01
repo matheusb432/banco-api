@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BancoAPI.Domain\BancoAPI.Domain.csproj" />
+    <ProjectReference Include="..\BancoAPI.Infra.Data\BancoAPI.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>
