@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "y1e0O52irt0Y1TW5DiWYpuwfAkqETi5SeeG1Py9isLR5IkfvvmUFAmR+sRiaRSy8+gwD7PWvsjYQpC/2AnUQmA==",
+  "dgSpecHash": "baFIp1gHRQaQPmGHPqv6Gg9T2vnMpkuaqv1PXHwuCeeNUJR2AkbhKg0FnL+e5gxS1VL77j+avLfhbJ6c8tbD1A==",
   "success": true,
   "projectFilePath": "C:\\Users\\usuário\\Desktop\\Acadêmico\\Github Projetos\\BancoAPI Github\\BancoAPI.Domain\\BancoAPI.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\usuário\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

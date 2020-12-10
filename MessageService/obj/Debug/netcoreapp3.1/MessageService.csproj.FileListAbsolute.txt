@@ -7,3 +7,12 @@ C:\Users\usuário\source\repos\Lead Dell\Estudos RESTful APIs\BancoAPI\MessageSe
 C:\Users\usuário\source\repos\Lead Dell\Estudos RESTful APIs\BancoAPI\MessageService\obj\Debug\netcoreapp3.1\MessageService.csproj.CoreCompileInputs.cache
 C:\Users\usuário\source\repos\Lead Dell\Estudos RESTful APIs\BancoAPI\MessageService\obj\Debug\netcoreapp3.1\MessageService.dll
 C:\Users\usuário\source\repos\Lead Dell\Estudos RESTful APIs\BancoAPI\MessageService\obj\Debug\netcoreapp3.1\MessageService.pdb
+C:\Users\usuário\Desktop\Acadêmico\Github Projetos\BancoAPI Github\MessageService\bin\Debug\netcoreapp3.1\MessageService.deps.json
+C:\Users\usuário\Desktop\Acadêmico\Github Projetos\BancoAPI Github\MessageService\bin\Debug\netcoreapp3.1\MessageService.dll
+C:\Users\usuário\Desktop\Acadêmico\Github Projetos\BancoAPI Github\MessageService\bin\Debug\netcoreapp3.1\MessageService.pdb
+C:\Users\usuário\Desktop\Acadêmico\Github Projetos\BancoAPI Github\MessageService\obj\Debug\netcoreapp3.1\MessageService.csprojAssemblyReference.cache
+C:\Users\usuário\Desktop\Acadêmico\Github Projetos\BancoAPI Github\MessageService\obj\Debug\netcoreapp3.1\MessageService.AssemblyInfoInputs.cache
+C:\Users\usuário\Desktop\Acadêmico\Github Projetos\BancoAPI Github\MessageService\obj\Debug\netcoreapp3.1\MessageService.AssemblyInfo.cs
+C:\Users\usuário\Desktop\Acadêmico\Github Projetos\BancoAPI Github\MessageService\obj\Debug\netcoreapp3.1\MessageService.csproj.CoreCompileInputs.cache
+C:\Users\usuário\Desktop\Acadêmico\Github Projetos\BancoAPI Github\MessageService\obj\Debug\netcoreapp3.1\MessageService.dll
+C:\Users\usuário\Desktop\Acadêmico\Github Projetos\BancoAPI Github\MessageService\obj\Debug\netcoreapp3.1\MessageService.pdb

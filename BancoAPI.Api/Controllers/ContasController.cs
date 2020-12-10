@@ -1,16 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using AutoMapper;
+﻿using BancoAPI.Application.Logger;
 using BancoAPI.Application.Repositories.ModelRepos;
-using MessageService;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using SistemaBanco.Api.DTOs;
 using SistemaBanco.Domain;
-using SistemaBanco.Infra;
 
 namespace SistemaBanco.Api.Controllers
 {
@@ -18,6 +9,8 @@ namespace SistemaBanco.Api.Controllers
     [ApiController]
     public class ContasController : ApiController<Conta, ContasRepo>
     {
-        public ContasController(ContasRepo repository) : base(repository) { }
+        public ContasController(ContasRepo repository, ILoggerManager logger) : base(repository, logger)
+        {
+        }
     }
 }

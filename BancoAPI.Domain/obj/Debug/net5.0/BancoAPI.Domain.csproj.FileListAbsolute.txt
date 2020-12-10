@@ -10,3 +10,15 @@ C:\Users\usuário\source\repos\Lead Dell\Estudos RESTful APIs\BancoAPI\BancoAPI.
 C:\Users\usuário\source\repos\Lead Dell\Estudos RESTful APIs\BancoAPI\BancoAPI.Domain\obj\Debug\net5.0\BancoAPI.Domain.dll
 C:\Users\usuário\source\repos\Lead Dell\Estudos RESTful APIs\BancoAPI\BancoAPI.Domain\obj\Debug\net5.0\ref\BancoAPI.Domain.dll
 C:\Users\usuário\source\repos\Lead Dell\Estudos RESTful APIs\BancoAPI\BancoAPI.Domain\obj\Debug\net5.0\BancoAPI.Domain.pdb
+C:\Users\usuário\Desktop\Acadêmico\Github Projetos\BancoAPI Github\BancoAPI.Domain\bin\Debug\net5.0\BancoAPI.Domain.deps.json
+C:\Users\usuário\Desktop\Acadêmico\Github Projetos\BancoAPI Github\BancoAPI.Domain\bin\Debug\net5.0\BancoAPI.Domain.dll
+C:\Users\usuário\Desktop\Acadêmico\Github Projetos\BancoAPI Github\BancoAPI.Domain\bin\Debug\net5.0\ref\BancoAPI.Domain.dll
+C:\Users\usuário\Desktop\Acadêmico\Github Projetos\BancoAPI Github\BancoAPI.Domain\bin\Debug\net5.0\BancoAPI.Domain.pdb
+C:\Users\usuário\Desktop\Acadêmico\Github Projetos\BancoAPI Github\BancoAPI.Domain\obj\Debug\net5.0\BancoAPI.Domain.csprojAssemblyReference.cache
+C:\Users\usuário\Desktop\Acadêmico\Github Projetos\BancoAPI Github\BancoAPI.Domain\obj\Debug\net5.0\BancoAPI.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\usuário\Desktop\Acadêmico\Github Projetos\BancoAPI Github\BancoAPI.Domain\obj\Debug\net5.0\BancoAPI.Domain.AssemblyInfoInputs.cache
+C:\Users\usuário\Desktop\Acadêmico\Github Projetos\BancoAPI Github\BancoAPI.Domain\obj\Debug\net5.0\BancoAPI.Domain.AssemblyInfo.cs
+C:\Users\usuário\Desktop\Acadêmico\Github Projetos\BancoAPI Github\BancoAPI.Domain\obj\Debug\net5.0\BancoAPI.Domain.csproj.CoreCompileInputs.cache
+C:\Users\usuário\Desktop\Acadêmico\Github Projetos\BancoAPI Github\BancoAPI.Domain\obj\Debug\net5.0\BancoAPI.Domain.dll
+C:\Users\usuário\Desktop\Acadêmico\Github Projetos\BancoAPI Github\BancoAPI.Domain\obj\Debug\net5.0\ref\BancoAPI.Domain.dll
+C:\Users\usuário\Desktop\Acadêmico\Github Projetos\BancoAPI Github\BancoAPI.Domain\obj\Debug\net5.0\BancoAPI.Domain.pdb

@@ -16,3 +16,21 @@ C:\Users\usuário\source\repos\Lead Dell\Estudos RESTful APIs\BancoAPI\BancoAPI.
 C:\Users\usuário\source\repos\Lead Dell\Estudos RESTful APIs\BancoAPI\BancoAPI.Infra.Data\obj\Debug\net5.0\ref\BancoAPI.Infra.Data.dll
 C:\Users\usuário\source\repos\Lead Dell\Estudos RESTful APIs\BancoAPI\BancoAPI.Infra.Data\obj\Debug\net5.0\BancoAPI.Infra.Data.pdb
 C:\Users\usuário\source\repos\Lead Dell\Estudos RESTful APIs\BancoAPI\BancoAPI.Infra.Data\obj\Debug\net5.0\BancoAPI.Infra.Data.genruntimeconfig.cache
+C:\Users\usuário\Desktop\Acadêmico\Github Projetos\BancoAPI Github\BancoAPI.Infra.Data\bin\Debug\net5.0\BancoAPI.Infra.Data.deps.json
+C:\Users\usuário\Desktop\Acadêmico\Github Projetos\BancoAPI Github\BancoAPI.Infra.Data\bin\Debug\net5.0\BancoAPI.Infra.Data.runtimeconfig.json
+C:\Users\usuário\Desktop\Acadêmico\Github Projetos\BancoAPI Github\BancoAPI.Infra.Data\bin\Debug\net5.0\BancoAPI.Infra.Data.runtimeconfig.dev.json
+C:\Users\usuário\Desktop\Acadêmico\Github Projetos\BancoAPI Github\BancoAPI.Infra.Data\bin\Debug\net5.0\BancoAPI.Infra.Data.dll
+C:\Users\usuário\Desktop\Acadêmico\Github Projetos\BancoAPI Github\BancoAPI.Infra.Data\bin\Debug\net5.0\ref\BancoAPI.Infra.Data.dll
+C:\Users\usuário\Desktop\Acadêmico\Github Projetos\BancoAPI Github\BancoAPI.Infra.Data\bin\Debug\net5.0\BancoAPI.Infra.Data.pdb
+C:\Users\usuário\Desktop\Acadêmico\Github Projetos\BancoAPI Github\BancoAPI.Infra.Data\bin\Debug\net5.0\BancoAPI.Domain.dll
+C:\Users\usuário\Desktop\Acadêmico\Github Projetos\BancoAPI Github\BancoAPI.Infra.Data\bin\Debug\net5.0\BancoAPI.Domain.pdb
+C:\Users\usuário\Desktop\Acadêmico\Github Projetos\BancoAPI Github\BancoAPI.Infra.Data\obj\Debug\net5.0\BancoAPI.Infra.Data.csprojAssemblyReference.cache
+C:\Users\usuário\Desktop\Acadêmico\Github Projetos\BancoAPI Github\BancoAPI.Infra.Data\obj\Debug\net5.0\BancoAPI.Infra.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\usuário\Desktop\Acadêmico\Github Projetos\BancoAPI Github\BancoAPI.Infra.Data\obj\Debug\net5.0\BancoAPI.Infra.Data.AssemblyInfoInputs.cache
+C:\Users\usuário\Desktop\Acadêmico\Github Projetos\BancoAPI Github\BancoAPI.Infra.Data\obj\Debug\net5.0\BancoAPI.Infra.Data.AssemblyInfo.cs
+C:\Users\usuário\Desktop\Acadêmico\Github Projetos\BancoAPI Github\BancoAPI.Infra.Data\obj\Debug\net5.0\BancoAPI.Infra.Data.csproj.CoreCompileInputs.cache
+C:\Users\usuário\Desktop\Acadêmico\Github Projetos\BancoAPI Github\BancoAPI.Infra.Data\obj\Debug\net5.0\BancoAPI.Infra.Data.csproj.CopyComplete
+C:\Users\usuário\Desktop\Acadêmico\Github Projetos\BancoAPI Github\BancoAPI.Infra.Data\obj\Debug\net5.0\BancoAPI.Infra.Data.dll
+C:\Users\usuário\Desktop\Acadêmico\Github Projetos\BancoAPI Github\BancoAPI.Infra.Data\obj\Debug\net5.0\ref\BancoAPI.Infra.Data.dll
+C:\Users\usuário\Desktop\Acadêmico\Github Projetos\BancoAPI Github\BancoAPI.Infra.Data\obj\Debug\net5.0\BancoAPI.Infra.Data.pdb
+C:\Users\usuário\Desktop\Acadêmico\Github Projetos\BancoAPI Github\BancoAPI.Infra.Data\obj\Debug\net5.0\BancoAPI.Infra.Data.genruntimeconfig.cache

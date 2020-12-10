@@ -1,14 +1,9 @@
-﻿using Microsoft.AspNetCore.Mvc.ModelBinding;
-using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using FluentValidation.Results;
-using SistemaBanco.Infra;
-using AutoMapper;
+﻿using BancoAPI.Application.Logger;
 using BancoAPI.Application.Repositories;
+using Microsoft.AspNetCore.Mvc;
 using SistemaBanco.Domain;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace SistemaBanco.Api.Controllers
 {
@@ -23,16 +18,25 @@ namespace SistemaBanco.Api.Controllers
         where TRepository : IRepository<TEntity>
     {
         private readonly TRepository _repository;
+        private readonly ILoggerManager _logger;
 
         public ApiController(TRepository repository)
         {
             _repository = repository;
         }
 
+        public ApiController(TRepository repository, ILoggerManager logger)
+        {
+            _repository = repository;
+            _logger = logger;
+        }
+
         // GET api/controller
         [HttpGet]
         public async Task<ActionResult<IEnumerable<TEntity>>> GetAll()
         {
+            _logger.LogInfo("Get All called");
+
             return Ok(await _repository.GetAll());
         }
 
