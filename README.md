@@ -1,7 +1,7 @@
 # BancoAPI
 
 * Funcionalidades de extrair, gravar, remover e atualizar dados de um banco de dados através de requisições HTTP
-* Implementação do Repository Pattern, para desacoplar as camadas da API com o contexto de dados, e facilitar a implementação genérica com o contexto de dados
+* Implementação do Repository Pattern, para desacoplar as camadas da API com o contexto de dados, e facilitar a implementação genérica de operações com DbSet<>()'s
 * Acesso a um banco de dados com EF Core
 * AutoMapper para configurar DTOs (Data-transfer objects), permitindo a exibição de apenas informações relevantes ao usuário em requisições GET
 * Logger para lidar com exceções e retornar código de status 500, além de salvar a stack trace em um arquivo txt definido em nlog.config
