@@ -9,7 +9,7 @@
 
 ## Executando o Projeto
 
-### Prerequisites
+### Requisitos
 
 Softwares que serão necessários estarem instaladas na sua máquina:
 
@@ -17,12 +17,12 @@ Softwares que serão necessários estarem instaladas na sua máquina:
 
 - [Microsoft® SQL Server® 2019](https://www.microsoft.com/en-us/download/details.aspx?id=101064)
 
-- Para setup mais ágil, com a string de conexão em app.settings.Development apontando para uma instância local de servidor SQL, basta rodar o comando no Package Manager Console do Visual Studio:
-  `Update-Database`
-  ou no CLI do .NET Core:
-  `dotnet ef database update`
-  e então executar através do Visual Studio ou pelo CLI do .NET Core no projeto BancoAPI.Api e rodar:
-  `dotnet run`
+Para setup mais ágil, com a string de conexão em app.settings.Development apontando para uma instância local de servidor SQL, basta rodar o comando no Package Manager Console do Visual Studio:
+`Update-Database`
+ou no CLI do .NET Core:
+`dotnet ef database update`
+e então executar através do Visual Studio ou pelo CLI do .NET Core no projeto BancoAPI.Api e rodar:
+`dotnet run`
 
 ## Camadas da aplicação em DDD
 
