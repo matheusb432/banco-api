@@ -7,11 +7,11 @@ using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SistemaBanco.Infra;
 
-namespace SistemaBanco.Infra.Migrations
+namespace BancoAPI.Infra.Data.Migrations
 {
     [DbContext(typeof(BancoContext))]
-    [Migration("20201123140441_AddAfiliado")]
-    partial class AddAfiliado
+    [Migration("20211003202404_Initial")]
+    partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -108,6 +108,35 @@ namespace SistemaBanco.Infra.Migrations
                     b.HasIndex("ClienteRefId");
 
                     b.ToTable("Contas");
+                });
+
+            modelBuilder.Entity("SistemaBanco.Domain.Corretora", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint")
+                        .UseIdentityColumn();
+
+                    b.Property<DateTimeOffset>("DataDeRegistro")
+                        .HasColumnType("datetimeoffset");
+
+                    b.Property<bool>("IsInternacional")
+                        .HasColumnType("bit");
+
+                    b.Property<double>("LucroLiquido")
+                        .HasColumnType("float");
+
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasMaxLength(250)
+                        .HasColumnType("nvarchar(250)");
+
+                    b.Property<double>("RendaBruta")
+                        .HasColumnType("float");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Corretoras");
                 });
 
             modelBuilder.Entity("SistemaBanco.Domain.Funcionario", b =>

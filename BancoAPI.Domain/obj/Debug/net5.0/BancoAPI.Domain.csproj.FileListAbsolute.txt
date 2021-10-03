@@ -22,3 +22,15 @@ C:\Users\usuário\Desktop\Acadêmico\Github Projetos\BancoAPI Github\BancoAPI.Do
 C:\Users\usuário\Desktop\Acadêmico\Github Projetos\BancoAPI Github\BancoAPI.Domain\obj\Debug\net5.0\BancoAPI.Domain.dll
 C:\Users\usuário\Desktop\Acadêmico\Github Projetos\BancoAPI Github\BancoAPI.Domain\obj\Debug\net5.0\ref\BancoAPI.Domain.dll
 C:\Users\usuário\Desktop\Acadêmico\Github Projetos\BancoAPI Github\BancoAPI.Domain\obj\Debug\net5.0\BancoAPI.Domain.pdb
+C:\Users\User\Desktop\Projetos\banco-api\BancoAPI.Domain\bin\Debug\net5.0\BancoAPI.Domain.deps.json
+C:\Users\User\Desktop\Projetos\banco-api\BancoAPI.Domain\bin\Debug\net5.0\BancoAPI.Domain.dll
+C:\Users\User\Desktop\Projetos\banco-api\BancoAPI.Domain\bin\Debug\net5.0\ref\BancoAPI.Domain.dll
+C:\Users\User\Desktop\Projetos\banco-api\BancoAPI.Domain\bin\Debug\net5.0\BancoAPI.Domain.pdb
+C:\Users\User\Desktop\Projetos\banco-api\BancoAPI.Domain\obj\Debug\net5.0\BancoAPI.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Projetos\banco-api\BancoAPI.Domain\obj\Debug\net5.0\BancoAPI.Domain.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Projetos\banco-api\BancoAPI.Domain\obj\Debug\net5.0\BancoAPI.Domain.AssemblyInfo.cs
+C:\Users\User\Desktop\Projetos\banco-api\BancoAPI.Domain\obj\Debug\net5.0\BancoAPI.Domain.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Projetos\banco-api\BancoAPI.Domain\obj\Debug\net5.0\BancoAPI.Domain.dll
+C:\Users\User\Desktop\Projetos\banco-api\BancoAPI.Domain\obj\Debug\net5.0\ref\BancoAPI.Domain.dll
+C:\Users\User\Desktop\Projetos\banco-api\BancoAPI.Domain\obj\Debug\net5.0\BancoAPI.Domain.pdb
+C:\Users\User\Desktop\Projetos\banco-api\BancoAPI.Domain\obj\Debug\net5.0\BancoAPI.Domain.csproj.AssemblyReference.cache

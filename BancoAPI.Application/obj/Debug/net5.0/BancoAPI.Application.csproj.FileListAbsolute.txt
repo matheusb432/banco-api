@@ -32,3 +32,20 @@ C:\Users\usuário\Desktop\Acadêmico\Github Projetos\BancoAPI Github\BancoAPI.Ap
 C:\Users\usuário\Desktop\Acadêmico\Github Projetos\BancoAPI Github\BancoAPI.Application\obj\Debug\net5.0\BancoAPI.Application.dll
 C:\Users\usuário\Desktop\Acadêmico\Github Projetos\BancoAPI Github\BancoAPI.Application\obj\Debug\net5.0\ref\BancoAPI.Application.dll
 C:\Users\usuário\Desktop\Acadêmico\Github Projetos\BancoAPI Github\BancoAPI.Application\obj\Debug\net5.0\BancoAPI.Application.pdb
+C:\Users\User\Desktop\Projetos\banco-api\BancoAPI.Application\bin\Debug\net5.0\BancoAPI.Application.deps.json
+C:\Users\User\Desktop\Projetos\banco-api\BancoAPI.Application\bin\Debug\net5.0\BancoAPI.Application.dll
+C:\Users\User\Desktop\Projetos\banco-api\BancoAPI.Application\bin\Debug\net5.0\ref\BancoAPI.Application.dll
+C:\Users\User\Desktop\Projetos\banco-api\BancoAPI.Application\bin\Debug\net5.0\BancoAPI.Application.pdb
+C:\Users\User\Desktop\Projetos\banco-api\BancoAPI.Application\bin\Debug\net5.0\BancoAPI.Domain.dll
+C:\Users\User\Desktop\Projetos\banco-api\BancoAPI.Application\bin\Debug\net5.0\BancoAPI.Infra.Data.dll
+C:\Users\User\Desktop\Projetos\banco-api\BancoAPI.Application\bin\Debug\net5.0\BancoAPI.Domain.pdb
+C:\Users\User\Desktop\Projetos\banco-api\BancoAPI.Application\bin\Debug\net5.0\BancoAPI.Infra.Data.pdb
+C:\Users\User\Desktop\Projetos\banco-api\BancoAPI.Application\obj\Debug\net5.0\BancoAPI.Application.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Projetos\banco-api\BancoAPI.Application\obj\Debug\net5.0\BancoAPI.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Projetos\banco-api\BancoAPI.Application\obj\Debug\net5.0\BancoAPI.Application.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Projetos\banco-api\BancoAPI.Application\obj\Debug\net5.0\BancoAPI.Application.AssemblyInfo.cs
+C:\Users\User\Desktop\Projetos\banco-api\BancoAPI.Application\obj\Debug\net5.0\BancoAPI.Application.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Projetos\banco-api\BancoAPI.Application\obj\Debug\net5.0\BancoAPI.Application.csproj.CopyComplete
+C:\Users\User\Desktop\Projetos\banco-api\BancoAPI.Application\obj\Debug\net5.0\BancoAPI.Application.dll
+C:\Users\User\Desktop\Projetos\banco-api\BancoAPI.Application\obj\Debug\net5.0\ref\BancoAPI.Application.dll
+C:\Users\User\Desktop\Projetos\banco-api\BancoAPI.Application\obj\Debug\net5.0\BancoAPI.Application.pdb

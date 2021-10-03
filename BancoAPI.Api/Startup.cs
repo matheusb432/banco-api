@@ -3,6 +3,7 @@ using BancoAPI.Api.Configurations;
 using BancoAPI.Application.Logger;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Rewrite;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -24,19 +25,14 @@ namespace BancoAPI.Api
 
         public void ConfigureServices(IServiceCollection services)
         {
-            // Adicionando o contexto com a string de conexão
             services.AddDatabaseConfig(Configuration);
 
-            // Adicionando AutoMapper para DTOs
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
-            // Adicionando os controladores e o contract resolver do newtonsoft para realizar operações PATCH
             services.AddPatchConfig();
 
-            // Configuração padrão do Swagger/OpenAPI
             services.AddSwaggerConfig();
 
-            // Registrando os serviços de injeção de dependência dos repositórios
             services.AddDependencyInjectionConfig();
         }
 
@@ -47,6 +43,9 @@ namespace BancoAPI.Api
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "BancoAPI.Api v1"));
+                var option = new RewriteOptions();
+                option.AddRedirect("^$", "swagger");
+                app.UseRewriter(option);
             }
 
             app.ConfigureExceptionHandler(logger);

@@ -1,8 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using SistemaBanco.Domain;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace SistemaBanco.Infra
 {
@@ -11,7 +8,6 @@ namespace SistemaBanco.Infra
         public BancoContext(DbContextOptions<BancoContext> options)
             : base(options)
         {
-
         }
 
         public DbSet<Conta> Contas { get; set; }
@@ -19,5 +15,8 @@ namespace SistemaBanco.Infra
         public DbSet<Funcionario> Funcionarios { get; set; }
         public DbSet<Afiliado> Afiliados { get; set; }
         public DbSet<Corretora> Corretoras { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder) 
+            => BancoAPI.Infra.Data.Seeding.SeedingData.SeedDatabase(modelBuilder);
     }
 }

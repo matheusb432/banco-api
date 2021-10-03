@@ -20,18 +20,17 @@ namespace SistemaBanco.Api.Controllers
         private readonly TRepository _repository;
         private readonly ILoggerManager _logger;
 
-        public ApiController(TRepository repository)
+        protected ApiController(TRepository repository)
         {
             _repository = repository;
         }
 
-        public ApiController(TRepository repository, ILoggerManager logger)
+        protected ApiController(TRepository repository, ILoggerManager logger)
         {
             _repository = repository;
             _logger = logger;
         }
 
-        // GET api/controller
         [HttpGet]
         public async Task<ActionResult<IEnumerable<TEntity>>> GetAll()
         {
@@ -40,8 +39,7 @@ namespace SistemaBanco.Api.Controllers
             return Ok(await _repository.GetAll());
         }
 
-        // GET: api/[controller]/5
-        [HttpGet("{id}"/*, Name = "Get"*/)]
+        [HttpGet("{id}")]
         public async Task<ActionResult<TEntity>> Get(int id)
         {
             var entity = await _repository.Get(id);
@@ -51,7 +49,6 @@ namespace SistemaBanco.Api.Controllers
             return entity;
         }
 
-        // PUT: api/[controller]/5
         [HttpPut("{id}")]
         public async Task<IActionResult> Put(int id, TEntity entity)
         {
@@ -65,7 +62,6 @@ namespace SistemaBanco.Api.Controllers
             return NoContent();
         }
 
-        // POST: api/[controller]
         [HttpPost]
         public async Task<ActionResult<TEntity>> Post(TEntity entity)
         {
@@ -74,7 +70,6 @@ namespace SistemaBanco.Api.Controllers
             return CreatedAtAction("Get", new { id = entity.Id }, entity);
         }
 
-        // DELETE: api/[controller]/5
         [HttpDelete("{id}")]
         public async Task<ActionResult<TEntity>> Delete(int id)
         {

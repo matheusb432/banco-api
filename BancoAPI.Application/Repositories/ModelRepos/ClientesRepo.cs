@@ -12,8 +12,6 @@ namespace BancoAPI.Application.Repositories.ModelRepos
         {
         }
 
-        // Como todos os métodos da classe abstrata EFCoreRepo<> são virtuais, é possível sobrescrever o GetAll() com qualquer especificação desejada
-        // conforme a necessidade, deixando a aplicação pouco acoplada e facilitando alterações nas suas funcionalidades
         public async override Task<IEnumerable<Cliente>> GetAll()
         {
             return await _context.Clientes.Include(x => x.Contas).ToListAsync();

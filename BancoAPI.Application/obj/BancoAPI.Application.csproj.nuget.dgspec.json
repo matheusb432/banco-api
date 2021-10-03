@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\usuário\\Desktop\\Acadêmico\\Github Projetos\\BancoAPI Github\\BancoAPI.Application\\BancoAPI.Application.csproj": {}
+    "C:\\Users\\User\\Desktop\\Projetos\\banco-api\\BancoAPI.Application\\BancoAPI.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\usuário\\Desktop\\Acadêmico\\Github Projetos\\BancoAPI Github\\BancoAPI.Application\\BancoAPI.Application.csproj": {
+    "C:\\Users\\User\\Desktop\\Projetos\\banco-api\\BancoAPI.Application\\BancoAPI.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\usuário\\Desktop\\Acadêmico\\Github Projetos\\BancoAPI Github\\BancoAPI.Application\\BancoAPI.Application.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\Projetos\\banco-api\\BancoAPI.Application\\BancoAPI.Application.csproj",
         "projectName": "BancoAPI.Application",
-        "projectPath": "C:\\Users\\usuário\\Desktop\\Acadêmico\\Github Projetos\\BancoAPI Github\\BancoAPI.Application\\BancoAPI.Application.csproj",
-        "packagesPath": "C:\\Users\\usuário\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\usuário\\Desktop\\Acadêmico\\Github Projetos\\BancoAPI Github\\BancoAPI.Application\\obj\\",
+        "projectPath": "C:\\Users\\User\\Desktop\\Projetos\\banco-api\\BancoAPI.Application\\BancoAPI.Application.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\Projetos\\banco-api\\BancoAPI.Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\usuário\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,11 +31,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\usuário\\Desktop\\Acadêmico\\Github Projetos\\BancoAPI Github\\BancoAPI.Domain\\BancoAPI.Domain.csproj": {
-                "projectPath": "C:\\Users\\usuário\\Desktop\\Acadêmico\\Github Projetos\\BancoAPI Github\\BancoAPI.Domain\\BancoAPI.Domain.csproj"
+              "C:\\Users\\User\\Desktop\\Projetos\\banco-api\\BancoAPI.Domain\\BancoAPI.Domain.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\Projetos\\banco-api\\BancoAPI.Domain\\BancoAPI.Domain.csproj"
               },
-              "C:\\Users\\usuário\\Desktop\\Acadêmico\\Github Projetos\\BancoAPI Github\\BancoAPI.Infra.Data\\BancoAPI.Infra.Data.csproj": {
-                "projectPath": "C:\\Users\\usuário\\Desktop\\Acadêmico\\Github Projetos\\BancoAPI Github\\BancoAPI.Infra.Data\\BancoAPI.Infra.Data.csproj"
+              "C:\\Users\\User\\Desktop\\Projetos\\banco-api\\BancoAPI.Infra.Data\\BancoAPI.Infra.Data.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\Projetos\\banco-api\\BancoAPI.Infra.Data\\BancoAPI.Infra.Data.csproj"
               }
             }
           }
@@ -75,21 +78,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\usuário\\Desktop\\Acadêmico\\Github Projetos\\BancoAPI Github\\BancoAPI.Domain\\BancoAPI.Domain.csproj": {
+    "C:\\Users\\User\\Desktop\\Projetos\\banco-api\\BancoAPI.Domain\\BancoAPI.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\usuário\\Desktop\\Acadêmico\\Github Projetos\\BancoAPI Github\\BancoAPI.Domain\\BancoAPI.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\Projetos\\banco-api\\BancoAPI.Domain\\BancoAPI.Domain.csproj",
         "projectName": "BancoAPI.Domain",
-        "projectPath": "C:\\Users\\usuário\\Desktop\\Acadêmico\\Github Projetos\\BancoAPI Github\\BancoAPI.Domain\\BancoAPI.Domain.csproj",
-        "packagesPath": "C:\\Users\\usuário\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\usuário\\Desktop\\Acadêmico\\Github Projetos\\BancoAPI Github\\BancoAPI.Domain\\obj\\",
+        "projectPath": "C:\\Users\\User\\Desktop\\Projetos\\banco-api\\BancoAPI.Domain\\BancoAPI.Domain.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\Projetos\\banco-api\\BancoAPI.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\usuário\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -135,21 +141,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\usuário\\Desktop\\Acadêmico\\Github Projetos\\BancoAPI Github\\BancoAPI.Infra.Data\\BancoAPI.Infra.Data.csproj": {
+    "C:\\Users\\User\\Desktop\\Projetos\\banco-api\\BancoAPI.Infra.Data\\BancoAPI.Infra.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\usuário\\Desktop\\Acadêmico\\Github Projetos\\BancoAPI Github\\BancoAPI.Infra.Data\\BancoAPI.Infra.Data.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\Projetos\\banco-api\\BancoAPI.Infra.Data\\BancoAPI.Infra.Data.csproj",
         "projectName": "BancoAPI.Infra.Data",
-        "projectPath": "C:\\Users\\usuário\\Desktop\\Acadêmico\\Github Projetos\\BancoAPI Github\\BancoAPI.Infra.Data\\BancoAPI.Infra.Data.csproj",
-        "packagesPath": "C:\\Users\\usuário\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\usuário\\Desktop\\Acadêmico\\Github Projetos\\BancoAPI Github\\BancoAPI.Infra.Data\\obj\\",
+        "projectPath": "C:\\Users\\User\\Desktop\\Projetos\\banco-api\\BancoAPI.Infra.Data\\BancoAPI.Infra.Data.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\Projetos\\banco-api\\BancoAPI.Infra.Data\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\usuário\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -163,8 +172,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\usuário\\Desktop\\Acadêmico\\Github Projetos\\BancoAPI Github\\BancoAPI.Domain\\BancoAPI.Domain.csproj": {
-                "projectPath": "C:\\Users\\usuário\\Desktop\\Acadêmico\\Github Projetos\\BancoAPI Github\\BancoAPI.Domain\\BancoAPI.Domain.csproj"
+              "C:\\Users\\User\\Desktop\\Projetos\\banco-api\\BancoAPI.Domain\\BancoAPI.Domain.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\Projetos\\banco-api\\BancoAPI.Domain\\BancoAPI.Domain.csproj"
               }
             }
           }
@@ -215,7 +224,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

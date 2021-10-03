@@ -7,11 +7,11 @@ using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SistemaBanco.Infra;
 
-namespace SistemaBanco.Infra.Migrations
+namespace BancoAPI.Infra.Data.Migrations
 {
     [DbContext(typeof(BancoContext))]
-    [Migration("20201118142921_NullableCorrections")]
-    partial class NullableCorrections
+    [Migration("20211003202914_Refactoring")]
+    partial class Refactoring
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -20,6 +20,36 @@ namespace SistemaBanco.Infra.Migrations
                 .UseIdentityColumns()
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("ProductVersion", "5.0.0");
+
+            modelBuilder.Entity("SistemaBanco.Domain.Afiliado", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint")
+                        .UseIdentityColumn();
+
+                    b.Property<string>("Cargo")
+                        .IsRequired()
+                        .HasColumnType("varchar(50)");
+
+                    b.Property<string>("Cpf")
+                        .IsRequired()
+                        .HasColumnType("varchar(20)");
+
+                    b.Property<DateTimeOffset>("DataDeRegistro")
+                        .HasColumnType("datetimeoffset");
+
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasColumnType("varchar(250)");
+
+                    b.Property<int>("VendasNoMes")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Afiliados");
+                });
 
             modelBuilder.Entity("SistemaBanco.Domain.Cliente", b =>
                 {
@@ -30,14 +60,14 @@ namespace SistemaBanco.Infra.Migrations
 
                     b.Property<string>("Cpf")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("varchar(20)");
 
                     b.Property<DateTimeOffset>("DataDeRegistro")
                         .HasColumnType("datetimeoffset");
 
                     b.Property<string>("Nome")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("varchar(250)");
 
                     b.HasKey("Id");
 
@@ -51,28 +81,55 @@ namespace SistemaBanco.Infra.Migrations
                         .HasColumnType("bigint")
                         .UseIdentityColumn();
 
-                    b.Property<long?>("ClienteId")
+                    b.Property<long>("ClienteRefId")
                         .HasColumnType("bigint");
 
                     b.Property<DateTimeOffset>("DataDeRegistro")
                         .HasColumnType("datetimeoffset");
 
-                    b.Property<decimal>("Limite")
-                        .HasColumnType("decimal(18,2)");
+                    b.Property<double>("Limite")
+                        .HasColumnType("float");
 
-                    b.Property<decimal>("Saldo")
-                        .HasColumnType("decimal(18,2)");
+                    b.Property<double>("Saldo")
+                        .HasColumnType("float");
 
                     b.Property<string>("TipoConta")
                         .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("nvarchar(100)");
+                        .HasColumnType("varchar(100)");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("ClienteId");
+                    b.HasIndex("ClienteRefId");
 
                     b.ToTable("Contas");
+                });
+
+            modelBuilder.Entity("SistemaBanco.Domain.Corretora", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint")
+                        .UseIdentityColumn();
+
+                    b.Property<DateTimeOffset>("DataDeRegistro")
+                        .HasColumnType("datetimeoffset");
+
+                    b.Property<bool>("IsInternacional")
+                        .HasColumnType("bit");
+
+                    b.Property<double>("LucroLiquido")
+                        .HasColumnType("float");
+
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasColumnType("varchar(250)");
+
+                    b.Property<double>("RendaBruta")
+                        .HasColumnType("float");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Corretoras");
                 });
 
             modelBuilder.Entity("SistemaBanco.Domain.Funcionario", b =>
@@ -84,18 +141,18 @@ namespace SistemaBanco.Infra.Migrations
 
                     b.Property<string>("Cargo")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("varchar(50)");
 
                     b.Property<string>("Cpf")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("varchar(20)");
 
                     b.Property<DateTimeOffset>("DataDeRegistro")
                         .HasColumnType("datetimeoffset");
 
                     b.Property<string>("Nome")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("varchar(250)");
 
                     b.HasKey("Id");
 
@@ -105,13 +162,15 @@ namespace SistemaBanco.Infra.Migrations
             modelBuilder.Entity("SistemaBanco.Domain.Conta", b =>
                 {
                     b.HasOne("SistemaBanco.Domain.Cliente", null)
-                        .WithMany("contas")
-                        .HasForeignKey("ClienteId");
+                        .WithMany("Contas")
+                        .HasForeignKey("ClienteRefId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("SistemaBanco.Domain.Cliente", b =>
                 {
-                    b.Navigation("contas");
+                    b.Navigation("Contas");
                 });
 #pragma warning restore 612, 618
         }

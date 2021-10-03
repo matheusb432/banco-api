@@ -1,8 +1,6 @@
 ﻿using EasyNetQ;
 using System;
-using System.Collections.Generic;
 using System.Reflection;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace MessageService
@@ -24,7 +22,7 @@ namespace MessageService
         }
 
         public static void HandleMessage<T>(T msg) where T : class
-        {   
+        {
             //foreach (T msg in msgs)
             //{
             Console.WriteLine($"Handling {msg.GetType().Name}...");

@@ -5,7 +5,6 @@ using SistemaBanco.Domain;
 
 namespace SistemaBanco.Api.Controllers
 {
-    // [Route("api/NMD39Y0")]
     [Route("api/[controller]")]
     [ApiController]
     public class CorretorasController : ApiController<Corretora, CorretorasRepo>

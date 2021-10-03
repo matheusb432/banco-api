@@ -16,3 +16,13 @@ C:\Users\usuário\Desktop\Acadêmico\Github Projetos\BancoAPI Github\MessageServ
 C:\Users\usuário\Desktop\Acadêmico\Github Projetos\BancoAPI Github\MessageService\obj\Debug\netcoreapp3.1\MessageService.csproj.CoreCompileInputs.cache
 C:\Users\usuário\Desktop\Acadêmico\Github Projetos\BancoAPI Github\MessageService\obj\Debug\netcoreapp3.1\MessageService.dll
 C:\Users\usuário\Desktop\Acadêmico\Github Projetos\BancoAPI Github\MessageService\obj\Debug\netcoreapp3.1\MessageService.pdb
+C:\Users\User\Desktop\Projetos\banco-api\MessageService\bin\Debug\netcoreapp3.1\MessageService.deps.json
+C:\Users\User\Desktop\Projetos\banco-api\MessageService\bin\Debug\netcoreapp3.1\MessageService.dll
+C:\Users\User\Desktop\Projetos\banco-api\MessageService\bin\Debug\netcoreapp3.1\MessageService.pdb
+C:\Users\User\Desktop\Projetos\banco-api\MessageService\obj\Debug\netcoreapp3.1\MessageService.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Projetos\banco-api\MessageService\obj\Debug\netcoreapp3.1\MessageService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Projetos\banco-api\MessageService\obj\Debug\netcoreapp3.1\MessageService.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Projetos\banco-api\MessageService\obj\Debug\netcoreapp3.1\MessageService.AssemblyInfo.cs
+C:\Users\User\Desktop\Projetos\banco-api\MessageService\obj\Debug\netcoreapp3.1\MessageService.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Projetos\banco-api\MessageService\obj\Debug\netcoreapp3.1\MessageService.dll
+C:\Users\User\Desktop\Projetos\banco-api\MessageService\obj\Debug\netcoreapp3.1\MessageService.pdb

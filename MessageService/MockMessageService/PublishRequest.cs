@@ -1,14 +1,12 @@
 ﻿using EasyNetQ;
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace SistemaBanco.Api.MessageService
 {
     public static class PublishRequest
     {
-        static Random random = new Random();
+        private static Random random = new Random();
 
         public async static Task Publish()
         {

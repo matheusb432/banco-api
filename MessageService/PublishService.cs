@@ -1,8 +1,6 @@
 ﻿using EasyNetQ;
 using RabbitMQ.Client;
-using System.Text.Json;
 using System;
-using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -32,7 +30,7 @@ namespace MessageService
                                      autoDelete: false,
                                      arguments: null);
 
-                foreach(T obj in objs)
+                foreach (T obj in objs)
                 {
                     string message = System.Text.Json.JsonSerializer.Serialize(obj);
                     // string message = await System.Text.Json.JsonSerializer.SerializeAsync(obj);
@@ -48,4 +46,3 @@ namespace MessageService
         }
     }
 }
-

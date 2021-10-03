@@ -34,3 +34,21 @@ C:\Users\usuário\Desktop\Acadêmico\Github Projetos\BancoAPI Github\BancoAPI.In
 C:\Users\usuário\Desktop\Acadêmico\Github Projetos\BancoAPI Github\BancoAPI.Infra.Data\obj\Debug\net5.0\ref\BancoAPI.Infra.Data.dll
 C:\Users\usuário\Desktop\Acadêmico\Github Projetos\BancoAPI Github\BancoAPI.Infra.Data\obj\Debug\net5.0\BancoAPI.Infra.Data.pdb
 C:\Users\usuário\Desktop\Acadêmico\Github Projetos\BancoAPI Github\BancoAPI.Infra.Data\obj\Debug\net5.0\BancoAPI.Infra.Data.genruntimeconfig.cache
+C:\Users\User\Desktop\Projetos\banco-api\BancoAPI.Infra.Data\bin\Debug\net5.0\BancoAPI.Infra.Data.deps.json
+C:\Users\User\Desktop\Projetos\banco-api\BancoAPI.Infra.Data\bin\Debug\net5.0\BancoAPI.Infra.Data.runtimeconfig.json
+C:\Users\User\Desktop\Projetos\banco-api\BancoAPI.Infra.Data\bin\Debug\net5.0\BancoAPI.Infra.Data.runtimeconfig.dev.json
+C:\Users\User\Desktop\Projetos\banco-api\BancoAPI.Infra.Data\bin\Debug\net5.0\BancoAPI.Infra.Data.dll
+C:\Users\User\Desktop\Projetos\banco-api\BancoAPI.Infra.Data\bin\Debug\net5.0\ref\BancoAPI.Infra.Data.dll
+C:\Users\User\Desktop\Projetos\banco-api\BancoAPI.Infra.Data\bin\Debug\net5.0\BancoAPI.Infra.Data.pdb
+C:\Users\User\Desktop\Projetos\banco-api\BancoAPI.Infra.Data\bin\Debug\net5.0\BancoAPI.Domain.dll
+C:\Users\User\Desktop\Projetos\banco-api\BancoAPI.Infra.Data\bin\Debug\net5.0\BancoAPI.Domain.pdb
+C:\Users\User\Desktop\Projetos\banco-api\BancoAPI.Infra.Data\obj\Debug\net5.0\BancoAPI.Infra.Data.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Projetos\banco-api\BancoAPI.Infra.Data\obj\Debug\net5.0\BancoAPI.Infra.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Projetos\banco-api\BancoAPI.Infra.Data\obj\Debug\net5.0\BancoAPI.Infra.Data.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Projetos\banco-api\BancoAPI.Infra.Data\obj\Debug\net5.0\BancoAPI.Infra.Data.AssemblyInfo.cs
+C:\Users\User\Desktop\Projetos\banco-api\BancoAPI.Infra.Data\obj\Debug\net5.0\BancoAPI.Infra.Data.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Projetos\banco-api\BancoAPI.Infra.Data\obj\Debug\net5.0\BancoAPI.Infra.Data.csproj.CopyComplete
+C:\Users\User\Desktop\Projetos\banco-api\BancoAPI.Infra.Data\obj\Debug\net5.0\BancoAPI.Infra.Data.dll
+C:\Users\User\Desktop\Projetos\banco-api\BancoAPI.Infra.Data\obj\Debug\net5.0\ref\BancoAPI.Infra.Data.dll
+C:\Users\User\Desktop\Projetos\banco-api\BancoAPI.Infra.Data\obj\Debug\net5.0\BancoAPI.Infra.Data.pdb
+C:\Users\User\Desktop\Projetos\banco-api\BancoAPI.Infra.Data\obj\Debug\net5.0\BancoAPI.Infra.Data.genruntimeconfig.cache
